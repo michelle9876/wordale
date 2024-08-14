@@ -12,7 +12,31 @@ main {
     gap: 5px;
 }
 
-.board-block{
+.board-column{
+    display: flex;
+    justify-content: center;
+    align-items: cetner;
+    border: 3px solid #d3d6da;
+    width: 60px;
+    height: 60px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5pxl
+}
+
+.keyboard-column {
     display: flex;
     justify-content: center;
     align-items: cetner;
